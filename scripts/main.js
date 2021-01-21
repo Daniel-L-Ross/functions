@@ -1,8 +1,7 @@
 import { calculateAgeInDogYears } from './DogYears.js'
 import { favoriteBreed } from './BestInShow.js'
 import { add } from './Add.js'
-
-console.log("Welcome to the main module")
+import { go } from './SelfDrivingCar.js'
 
 // DogYears test code
 const dogAge = calculateAgeInDogYears(22)
@@ -20,3 +19,10 @@ console.log(addTwo)
 
 const addThree = add(17, 4, 11)
 console.log(addThree)
+
+// self driving car test code
+const roadster = go('forward', 80)
+console.log(roadster)
+
+const prius = go('backwards', 5)
+console.log(prius)
