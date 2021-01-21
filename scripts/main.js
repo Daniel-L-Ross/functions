@@ -5,6 +5,7 @@ import { go } from './SelfDrivingCar.js'
 import { evenOddCheck, numberArray } from './EvenOrOdd.js'
 import { filteredSentance } from './DoubleFunction.js'
 import { goFish } from './Tunafish.js'
+import { mealBuilder } from './FastFood.js'
 
 // DogYears test code
 // const dogAge = calculateAgeInDogYears(22);
@@ -45,3 +46,7 @@ import { goFish } from './Tunafish.js'
 console.log(filteredSentance())
 
 console.log(goFish(3))
+
+        // fast food builder
+const danMeal = mealBuilder('Spicy Chicken Sandwich', 'Medium Fry', 'Lemonade', 'Oreo Milkshake' );
+console.log(danMeal);
