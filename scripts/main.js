@@ -1,4 +1,5 @@
 import { calculateAgeInDogYears } from './DogYears.js'
 console.log("Welcome to the main module")
 
-calculateAgeInDogYears(7)
+const dogAge = calculateAgeInDogYears(22)
+console.log(`Age in dog years: ${dogAge}`)
