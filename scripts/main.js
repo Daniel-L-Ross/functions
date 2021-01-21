@@ -4,7 +4,9 @@ import { add } from './Add.js'
 import { go } from './SelfDrivingCar.js'
 import { evenOddCheck, numberArray } from './EvenOrOdd.js'
 import { filteredSentance } from './DoubleFunction.js'
-        // DogYears test code
+import { goFish } from './Tunafish.js'
+
+// DogYears test code
 // const dogAge = calculateAgeInDogYears(22);
 // console.log(`Age in dog years: ${dogAge}`);
 
@@ -42,3 +44,4 @@ import { filteredSentance } from './DoubleFunction.js'
         // Double Function test code
 console.log(filteredSentance())
 
+console.log(goFish(3))
