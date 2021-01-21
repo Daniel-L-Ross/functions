@@ -6,6 +6,7 @@ import { evenOddCheck, numberArray } from './EvenOrOdd.js'
 import { filteredSentance } from './DoubleFunction.js'
 import { goFish } from './Tunafish.js'
 import { mealBuilder } from './FastFood.js'
+import {twice, timesFive, square, embiggen } from "./Chores.js"
 
 // DogYears test code
 // const dogAge = calculateAgeInDogYears(22);
@@ -50,3 +51,10 @@ console.log(goFish(3))
         // fast food builder
 const danMeal = mealBuilder('Spicy Chicken Sandwich', 'Medium Fry', 'Lemonade', 'Oreo Milkshake' );
 console.log(danMeal);
+
+        // chores-- mathmatic tests
+const number = 10;
+const by2 = embiggen(number, twice)
+const by5 = embiggen(number, timesFive)
+const byItself = embiggen(number, square)
+console.log(by2, by5, byItself)
